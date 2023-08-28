@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>  
+        <title>Aditya Gandhi's Personal Website</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale-1.0"> 
+
+
+        <script>
+            var audio = new Audio ('IMG_0.mov'); 
+            var torf = false; 
+            
+            //function playAudio gives the user the functionality to stop sound from playing if it is already. 
+            function playAudio() {
+                if(torf) { 
+                    audio.pause(); 
+                    torf = false; 
+                }
+                else {
+                    audio.play(); 
+                    torf = true; 
+                }
+            }
+        
+        </script> 
+
+        <style> 
+            /*Code adds style to the click me button*/
+            .click-me { 
+                background-color: black; 
+                color: white; 
+                border: none;
+
+                padding-left: 20px; 
+                padding-right: 20px; 
+                padding-top: 10px; 
+                padding-bottom: 10px; 
+
+                border-radius: 10px;
+            }
+
+           
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                max-width: 800px;
+            }
+
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            tr:hover {
+                background-color: #f5f5f5;
+            }
+
+            form {
+                background: white;
+                display: flex; 
+                flex-direction: column; 
+                padding: 0vw 4vw; 
+                width: 90%; 
+                
+                border-radius: 10px; 
+
+            }
+            form h3 { 
+                color: #555; 
+                font-weight: 600; 
+                margin-bottom: 20px; 
+            }
+
+            form input, form textarea, select#nameofcontinent{
+                border: none; 
+                margin: 10px 0; 
+                padding: 20px; 
+                outline: none; 
+                background: #f5f5f5; 
+                font-size: 16px; 
+            }
+            form button {
+                padding-left: 40px; 
+                padding-right: 40px; 
+                padding-top: 20px; 
+                padding-bottom: 20px; 
+                background: #ff5361; 
+                color: #fff; 
+                font-size: 18px; 
+                border: 0; 
+                outline: none; 
+                cursor: pointer; 
+                margin: 20px auto 0; 
+                border-radius: 30px; 
+            }
+
+            .button-container { 
+                display: flex; 
+                justify-content: center;
+                padding-bottom: 50px; 
+            }
+
+            select#nameofcontinent option {
+                background-color: #f5f5f5; 
+                color: white; 
+            }
+
+            .top-3-container {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 20px; 
+                
+            }
+
+            .click-me-container {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                
+            }
+
+            .resume-info-container {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .myTable-container {
+                display:flex; 
+                justify-content: center;
+                align-items: center; 
+                padding-top: 20px; 
+                padding-bottom: 20px; 
+            }
+
+        </style> 
+
+    </head>
+
+
+    <body>
+
+        <div class = "top-3-container"> 
+            <h1 class = "title">Hey! My name is Aditya</h1>
+
+            <!--Write code that gives a user a click me link to a picture of me-->
+            
+            <img src = "ADITYA.jpeg" style = "width: 300px; height: auto;"> 
+            
+            
+            <a href = "https://lh3.googleusercontent.com/kUqlliuVfLJy3B4H-pE5Egtsc-fiaf2mp8YZOvsiejGP3B02vTCeAysc_VhQTTzdCOiaziCp17xEpZUNFtgMj3lcZKh6DxTPXf7hU7wDnVKH3vKpo5xBCnpkCG7Lkz-wuNMjHvrJG9F8X3tgaLIwpuhD6el1Vvvky1MW5ldUJBOnnbdVM-zv6bWtAG39qxTZ42Iv3Iuafkiny6oJLDGzzmpyS4A3c8GoF4CVtLd3MMBU-F08zzHVZ7ABRCojx8YQEYYfpPTMuzGFK7WIrHeCSbtQdP3vTrakQJUO4dgBiFv4R4GpZ3ogsING0x1d3pk92rXJQBms4HoCSGQ7xyUA6zw4TDwvUrcYYqmS0-SipZdN-phwS5gcYv25UyYqjai6__GBB2FFzUOy0bcF-um1iTGLmDrTpWJt7lqxmNr0n3ZGq3q9OU0XHD4fF26X5EGsoJ-bV4TET-DLAymKB3gCCPmvh76rB8hEvjN-tb_5y5q2tj8rWlDYgmeTuBWnSCFC3a35WsNszondwNuxNNWJrt0WH-SM8tpsph3C1eXy6VxQ06RiG1TDXhFWzFzK4FcmopewuFawrZvzMisQO4Dt3pVxkn-uydIC8CenLV15iog1Id2BSoB2KsmKMd1g9kgVz5BOw5-o4fnJfzdnzRQjq4AbJf_M1PXeS3-20pH0BQGKbSXKRjwpz-mUhMX5d9BmGkEpLJ-NnqKTiVXNqMtIbhARMWXavXqY9OC80l6jx56I61ugWd5t6ZqATmVTkIYi6c0xfFT0TukBeligPqXNTX-V0tWSRZyElDyWc4L3PjaRIl9bVrP7NOrKbUKlftkYL5pMB3XrjKGb47ohrKP-zLSUq39uyTbW8c72WiLHAUaHhBjclQUvP10Pvr6RDuV-2qGK0NndHjTK1K8ymqgBVv_08zxIokXkSaaV5385H9qgsUGHsITz_8VF8S90m7r3zPjyviGH26KfBpJ3qfcDIluYp6OEmc2Mhov6VLzvLkuOmfLfuMwJQEcDe8m2a-Gqzeoj_Orn_MAw8gnXpdZ4q9cEIaL15HFB8VCPLayu4vvhEhcTTFzPYozgYv2YZs0r1N25IacFxEmoJgC2GrDCzAvf_XF8LCYu7-tI=w563-h1001-s-no?authuser=0" target = _blank>
+                <h3 class = "title">Aditya Gandhi Photo</h3>
+            </a>
+        </div>
+        <hr> 
+        
+        <div class = "click-me-container"> 
+            <h2 class = "title">Click Below to hear a recording to learn how to pronounce my name</h2>
+            <button onclick = "playAudio()" class = "click-me">CLICK ME</button>
+        </div>
+        <hr> 
+        
+        <div class = "resume-info-container">
+          <a href = "/Users/adityagandhi/Desktop/Aditya-Gandhi_Resume.pdf" target = _blank> 
+                <h3 class = "title">Aditya Gandhi's CV</h3>
+          </a>
+          <h3>Key Highlights From Resume</h3>
+
+          <h4>Summer Research Intern: <i>Interactive Computing Experiences Lab,</i> Univ. Of Central Florida &nbsp&nbsp&nbsp&nbsp July '22</h4> 
+          <u1>
+            <li>Learned VR development from Dr. LaViola's Ph.D. students using C# and the Unity Game engine</li>
+            <li>Learned ROS (Robot Operating System) software libraries and inverse kinematics</li>
+            <li>Sat in weekly research meetings and read research papers in the field of Human-Computer Interaction</li>
+          </u1> 
+        
+
+            <hr> 
+
+        
+            <h4>Summer Intern: <i> <a href = "https://www.careersourcecentralflorida.com/press-releases/summer_youth_2021_recap/"> Robotics Accerlated Track Youth Program</a>,  Orlando Technical College &nbsp&nbsp&nbsp&nbsp July '22</i></h4>
+            <u1>
+                <li>Learned C Programming to program VEX Robots</li>
+                <li>Recognized as a top intern out of 35 students for exemplary performance</li>
+                <li>Implemented autonomous code by integrating robot sensors like limit switches, line trackers, and encoders</li>  
+            </u1> 
+        
+
+            <hr> 
+
+        
+            <h3>Awards</h3>
+            <ol type = "A" > 
+                <li>Dean's List Semi-Finalist (Team MVP) &nbsp&nbsp&nbsp&nbsp <b>'22</b></li>
+                <li>Chairman's Award - Florida region, a most prestigious award in FIRST Robotics &nbsp&nbsp&nbsp&nbsp <b>'21</b></li>
+        </div>
+
+        <hr> 
+
+        <div class = "myTable-container">
+            <table id="myTable">
+                <tr>
+                    <th>Skills</th>
+                    <th>Certifications</th>
+                </tr>
+            </table>
+        </div>
+
+        <script>
+            var data = [ 
+                ["Teamwork", "Florida Soft Skills Certification"], 
+                ["Problem-Solver", "OSHA-10 Certified"], 
+                ["Communicator", "OTC Robotic Systems Certified"]   
+            ]
+    
+            // Get the table element by its ID
+            var table = document.getElementById("myTable");
+    
+            // Iterate over the data array
+            for (var i = 0; i < data.length; i++) {
+                // Create a new row for each data row
+                var row = document.createElement("tr");
+    
+                // Iterate over the inner data array
+                for (var j = 0; j < data[i].length; j++) {
+                    // Create a new cell for each data item
+                    var cell = document.createElement("td");
+    
+                    // Set the text content of the cell to the data item
+                    cell.textContent = data[i][j];
+    
+                    // Append the cell to the row
+                    row.appendChild(cell);
+                }
+    
+                // Append the row to the table
+                table.appendChild(row);
+            }
+        </script>
+        <hr> 
+        
+        <h3 class = "top-3-container">Want to connect --- send me a message:)</h3>
+        <div class = "container ">
+            <form action="https://formsubmit.co/tronaditya@gmail.com" method="POST">
+                
+                <label for = "fname" >first name</label>
+                <input type = "text" id = "fname" name = "fname" placeholder = "NAME" required> 
+                
+
+                <label for = "lname" >last name</label>
+                <input type = "text" id = "lname" name = "lname" placeholder = "LASTNAME" required> 
+                
+
+                <label for = "email">email</label>
+                <input type = "text" id = "email" name = "email" placeholder = "EMAIL" required> 
+                
+                
+                <label for = "nameofcontinent">which continent are you from?</label>             
+                <select name = "Coninent" id = "nameofcontinent"> 
+                    <option>Africa</option>
+                    <option>Antartica</option>
+                    <option>Asia</option>
+                    <option>Australia</option>
+                    <option>Europe</option>
+                    <option>North America</option>
+                    <option>South America</option>
+                    <option>ALIEN</option>
+                </select>
+                
+            
+                <label for = "message">message</label>
+                <textarea name = "Message" id = "message" name = "message" placeholder = "Message" required></textarea>
+
+                <div class = "button-container"> 
+                <button type = "submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </body> 
+</html>
